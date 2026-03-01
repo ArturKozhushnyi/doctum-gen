@@ -6,7 +6,6 @@ if (PHP_VERSION_ID < 80100) {// 80 1 00
     exit(1);
 }
 
-// installed via composer?
 $doctumComposerAutoLoadFile = __DIR__ . '/../../../autoload.php';
 
 $doctumComposerAutoLoadFileEnv = getenv('DOCTUM_COMPOSER_AUTOLOAD_FILE');
